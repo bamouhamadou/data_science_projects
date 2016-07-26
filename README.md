@@ -8,8 +8,10 @@ This projects contains ML scripts for data analysis.
 **** /programs conatains different algorithm
 
 
-Add new algorithms into /programs by naming them properly
-    For example "a_new_folder/new_algorithme_26072016"
+# proposition to create new files
 
-Add new data into /data by naming them properly
-    For example "a_new_folder/new_algorithme_26072016"
+    Add new algorithms into /programs by naming them properly
+        For example "a_new_folder/new_algorithme_26072016"
+
+    Add new data into /data by naming them properly
+        For example "a_new_folder/new_algorithme_26072016"

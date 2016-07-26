@@ -1,4 +1,4 @@
-# data_science_projects
+# data science projects
 
 This projects contains ML scripts for data analysis.
 

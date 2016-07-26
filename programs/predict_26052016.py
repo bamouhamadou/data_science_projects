@@ -73,7 +73,7 @@ def prepare_data(X):
 
 # === mean absolute percentage error === #
 def mean_absolute_percentage_error(y_true, y_pred): 
-    y_true, y_pred = check_array(y_true, y_pred)
+    #y_true, y_pred = check_array(y_true, y_pred)
     return numpy.mean(numpy.abs((y_true - y_pred) / y_true)) * 100
 
 def main():
@@ -107,16 +107,18 @@ def main():
 
         # train model and make predictions
         model.fit(X_train, y_train.values.ravel()) 
-        preds = model.predict(X_cv)#[:, 1]
+        preds = model.predict(X_cv)
 
+	print "result"
 	print preds
+        print y_cv
 
         # compute MAE metric for this CV fold
         #means = metrics.mean_absolute_error(y_cv, preds)
-        means = mean_absolute_percentage_error(y_cv, preds)
+        roc_inter = mean_absolute_percentage_error(y_cv['prime_tot_ttc'], preds)
         #roc_auc = metrics.auc(fpr, tpr)
-        #print "AUC (fold %d/%d): %f" % (i + 1, n, roc_auc)
-        #mean_auc += roc_auc
+        print "AUC (fold %d/%d): %f" % (i + 1, n, roc_inter)
+        mean_auc += roc_inter
 
     print "Mean MAE: %f" % (means)
 

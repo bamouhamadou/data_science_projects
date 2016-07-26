@@ -1,4 +1,4 @@
-# data science projects
+# Learning
 
 This projects contains ML scripts for data analysis.
 

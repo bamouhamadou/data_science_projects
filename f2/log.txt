@@ -1,0 +1,642 @@
+
+MAPE of (fold 1/5) of RandomForestRegressor is : 10.663105
+MAPE of (fold 2/5) of RandomForestRegressor is : 10.629846
+MAPE of (fold 3/5) of RandomForestRegressor is : 10.662398
+MAPE of (fold 4/5) of RandomForestRegressor is : 10.745971
+MAPE of (fold 5/5) of RandomForestRegressor is : 10.649690
+MAPE of fold RandomForestRegressor : 9.453455
+MAPE of (fold 1/5) of XGBRegressor is : 10.615742
+MAPE of (fold 2/5) of XGBRegressor is : 10.659887
+MAPE of (fold 3/5) of XGBRegressor is : 10.704495
+MAPE of (fold 4/5) of XGBRegressor is : 10.686538
+MAPE of (fold 5/5) of XGBRegressor is : 10.638854
+MAPE of fold XGBRegressor : 10.586555
+
+MAPE of (fold 1/5) of RandomForestRegressor is : 10.681768
+MAPE of (fold 2/5) of RandomForestRegressor is : 10.634958
+MAPE of (fold 3/5) of RandomForestRegressor is : 10.674656
+MAPE of (fold 4/5) of RandomForestRegressor is : 10.746012
+MAPE of (fold 5/5) of RandomForestRegressor is : 10.657350
+MAPE of fold RandomForestRegressor : 9.452014
+MAPE of (fold 1/5) of XGBRegressor is : 10.615742
+MAPE of (fold 2/5) of XGBRegressor is : 10.659887
+MAPE of (fold 3/5) of XGBRegressor is : 10.704495
+MAPE of (fold 4/5) of XGBRegressor is : 10.686538
+MAPE of (fold 5/5) of XGBRegressor is : 10.638854
+MAPE of fold XGBRegressor : 10.586555
+
+GOOOOOOOOOO
+MAPE of (fold 1/5) of RandomForestRegressor is : 10.700182
+MAPE of (fold 2/5) of RandomForestRegressor is : 10.648905
+MAPE of (fold 3/5) of RandomForestRegressor is : 10.723132
+MAPE of (fold 4/5) of RandomForestRegressor is : 10.760788
+MAPE of (fold 5/5) of RandomForestRegressor is : 10.681220
+MAPE of fold RandomForestRegressor : 9.406189
+MAPE of (fold 1/5) of XGBRegressor is : 10.622825
+MAPE of (fold 2/5) of XGBRegressor is : 10.517819
+MAPE of (fold 3/5) of XGBRegressor is : 10.673759
+MAPE of (fold 4/5) of XGBRegressor is : 10.684413
+MAPE of (fold 5/5) of XGBRegressor is : 10.665785
+MAPE of fold XGBRegressor : 10.575633
+GOOOOOOOOOO
+MAPE of (fold 1/5) of RandomForestRegressor is : 10.683816
+MAPE of (fold 2/5) of RandomForestRegressor is : 10.644249
+MAPE of (fold 3/5) of RandomForestRegressor is : 10.685443
+MAPE of (fold 4/5) of RandomForestRegressor is : 10.753058
+MAPE of (fold 5/5) of RandomForestRegressor is : 10.670319
+MAPE of fold RandomForestRegressor : 9.398511
+MAPE of (fold 1/5) of XGBRegressor is : 10.642821
+MAPE of (fold 2/5) of XGBRegressor is : 10.629430
+MAPE of (fold 3/5) of XGBRegressor is : 10.675089
+MAPE of (fold 4/5) of XGBRegressor is : 10.754571
+MAPE of (fold 5/5) of XGBRegressor is : 10.547245
+MAPE of fold XGBRegressor : 10.641840
+GOOOOOOOOOO
+MAPE of (fold 1/5) of RandomForestRegressor is : 10.740028
+MAPE of (fold 2/5) of RandomForestRegressor is : 10.672260
+MAPE of (fold 3/5) of RandomForestRegressor is : 10.732201
+MAPE of (fold 4/5) of RandomForestRegressor is : 10.759855
+MAPE of (fold 5/5) of RandomForestRegressor is : 10.704238
+MAPE of fold RandomForestRegressor : 9.664452
+MAPE of (fold 1/5) of XGBRegressor is : 10.642821
+MAPE of (fold 2/5) of XGBRegressor is : 10.629430
+MAPE of (fold 3/5) of XGBRegressor is : 10.675089
+MAPE of (fold 4/5) of XGBRegressor is : 10.754571
+MAPE of (fold 5/5) of XGBRegressor is : 10.547245
+MAPE of fold XGBRegressor : 10.641840
+GOOOOOOOOOO
+MAPE of (fold 1/5) of RandomForestRegressor is : 10.669555
+MAPE of (fold 2/5) of RandomForestRegressor is : 10.599316
+MAPE of (fold 3/5) of RandomForestRegressor is : 10.658854
+MAPE of (fold 4/5) of RandomForestRegressor is : 10.693167
+MAPE of (fold 5/5) of RandomForestRegressor is : 10.654527
+MAPE of fold RandomForestRegressor : 9.179582
+MAPE of (fold 1/5) of XGBRegressor is : 10.642821
+MAPE of (fold 2/5) of XGBRegressor is : 10.629430
+MAPE of (fold 3/5) of XGBRegressor is : 10.675089
+MAPE of (fold 4/5) of XGBRegressor is : 10.754571
+MAPE of (fold 5/5) of XGBRegressor is : 10.547245
+MAPE of fold XGBRegressor : 10.641840
+GOOOOOOOOOO
+MAPE of (fold 1/5) of RandomForestRegressor is : 10.628921
+MAPE of (fold 2/5) of RandomForestRegressor is : 10.592886
+MAPE of (fold 3/5) of RandomForestRegressor is : 10.669548
+MAPE of (fold 4/5) of RandomForestRegressor is : 10.676405
+MAPE of (fold 5/5) of RandomForestRegressor is : 10.624775
+MAPE of fold RandomForestRegressor : 8.994193
+MAPE of (fold 1/5) of XGBRegressor is : 10.642821
+MAPE of (fold 2/5) of XGBRegressor is : 10.629430
+MAPE of (fold 3/5) of XGBRegressor is : 10.675089
+MAPE of (fold 4/5) of XGBRegressor is : 10.754571
+MAPE of (fold 5/5) of XGBRegressor is : 10.547245
+MAPE of fold XGBRegressor : 10.641840
+GOOOOOOOOOO
+MAPE of (fold 1/5) of RandomForestRegressor is : 10.605027
+MAPE of (fold 2/5) of RandomForestRegressor is : 10.545823
+MAPE of (fold 3/5) of RandomForestRegressor is : 10.626811
+MAPE of (fold 4/5) of RandomForestRegressor is : 10.632794
+MAPE of (fold 5/5) of RandomForestRegressor is : 10.569054
+MAPE of fold RandomForestRegressor : 8.299571
+MAPE of (fold 1/5) of XGBRegressor is : 10.642821
+MAPE of (fold 2/5) of XGBRegressor is : 10.629430
+MAPE of (fold 3/5) of XGBRegressor is : 10.675089
+MAPE of (fold 4/5) of XGBRegressor is : 10.754571
+MAPE of (fold 5/5) of XGBRegressor is : 10.547245
+MAPE of fold XGBRegressor : 10.641840
+GOOOOOOOOOO
+MAPE of (fold 1/5) of RandomForestRegressor is : 10.610143
+MAPE of (fold 2/5) of RandomForestRegressor is : 10.561220
+MAPE of (fold 3/5) of RandomForestRegressor is : 10.607387
+MAPE of (fold 4/5) of RandomForestRegressor is : 10.654546
+MAPE of (fold 5/5) of RandomForestRegressor is : 10.586799
+MAPE of fold RandomForestRegressor : 8.319801
+MAPE of (fold 1/5) of XGBRegressor is : 10.642821
+MAPE of (fold 2/5) of XGBRegressor is : 10.629430
+MAPE of (fold 3/5) of XGBRegressor is : 10.675089
+MAPE of (fold 4/5) of XGBRegressor is : 10.754571
+MAPE of (fold 5/5) of XGBRegressor is : 10.547245
+MAPE of fold XGBRegressor : 10.641840
+GOOOOOOOOOO
+MAPE of (fold 1/5) of RandomForestRegressor is : 10.596509
+MAPE of (fold 2/5) of RandomForestRegressor is : 10.538595
+MAPE of (fold 3/5) of RandomForestRegressor is : 10.626952
+MAPE of (fold 4/5) of RandomForestRegressor is : 10.648557
+MAPE of (fold 5/5) of RandomForestRegressor is : 10.592282
+MAPE of fold RandomForestRegressor : 8.314406
+MAPE of (fold 1/5) of XGBRegressor is : 10.642821
+MAPE of (fold 2/5) of XGBRegressor is : 10.655728
+MAPE of (fold 3/5) of XGBRegressor is : 10.675089
+MAPE of (fold 4/5) of XGBRegressor is : 10.715151
+MAPE of (fold 5/5) of XGBRegressor is : 10.547245
+MAPE of fold XGBRegressor : 10.646097
+GOOOOOOOOOO
+MAPE of (fold 1/5) of RandomForestRegressor is : 10.571565
+MAPE of (fold 2/5) of RandomForestRegressor is : 10.533967
+MAPE of (fold 3/5) of RandomForestRegressor is : 10.642547
+MAPE of (fold 4/5) of RandomForestRegressor is : 10.640168
+MAPE of (fold 5/5) of RandomForestRegressor is : 10.583682
+MAPE of fold RandomForestRegressor : 8.316189
+MAPE of (fold 1/5) of XGBRegressor is : 10.642821
+MAPE of (fold 2/5) of XGBRegressor is : 10.629434
+MAPE of (fold 3/5) of XGBRegressor is : 10.675089
+MAPE of (fold 4/5) of XGBRegressor is : 10.754591
+MAPE of (fold 5/5) of XGBRegressor is : 10.547245
+MAPE of fold XGBRegressor : 10.641840
+GOOOOOOOOOO
+GOOOOOOOOOO
+GOOOOOOOOOO
+[[  1.00000000e+00   8.18181818e-02   3.00000000e+01 ...,   1.00000000e+00
+    2.00000000e+00   2.54750000e+02]
+ [  2.00000000e+00   0.00000000e+00   3.00000000e+01 ...,   7.00000000e+00
+    5.00000000e+00   2.59890000e+02]
+ [  3.00000000e+00   2.04545455e-01   3.40000000e+01 ...,   1.00000000e+01
+    1.00000000e+01   4.31650000e+02]
+ ..., 
+ [  3.29998000e+05   2.27272727e-01   2.50000000e+01 ...,   1.00000000e+00
+    3.00000000e+00   0.00000000e+00]
+ [  3.29999000e+05   6.36363636e-02   4.40000000e+01 ...,   1.00000000e+00
+    1.00000000e+01   0.00000000e+00]
+ [  3.30000000e+05   2.27272727e-01   3.20000000e+01 ...,   1.00000000e+00
+    3.00000000e+00   0.00000000e+00]]
+MAPE of (fold 1/5) of RandomForestRegressor is : 10.618532
+MAPE of (fold 2/5) of RandomForestRegressor is : 10.560728
+MAPE of (fold 3/5) of RandomForestRegressor is : 10.672226
+MAPE of (fold 4/5) of RandomForestRegressor is : 10.669488
+MAPE of (fold 5/5) of RandomForestRegressor is : 10.586160
+MAPE of fold RandomForestRegressor : 6.788959
+MAPE of (fold 1/5) of XGBRegressor is : 10.642821
+MAPE of (fold 2/5) of XGBRegressor is : 10.629434
+MAPE of (fold 3/5) of XGBRegressor is : 10.675089
+MAPE of (fold 4/5) of XGBRegressor is : 10.754591
+MAPE of (fold 5/5) of XGBRegressor is : 10.547245
+MAPE of fold XGBRegressor : 10.641840
+GOOOOOOOOOO
+[[  1.00000000e+00   8.18181818e-02  -6.83943176e-02 ...,   1.00000000e+00
+    2.00000000e+00   2.54750000e+02]
+ [  2.00000000e+00   0.00000000e+00  -6.83943176e-02 ...,   7.00000000e+00
+    5.00000000e+00   2.59890000e+02]
+ [  3.00000000e+00   2.04545455e-01  -2.63811877e-03 ...,   1.00000000e+01
+    1.00000000e+01   4.31650000e+02]
+ ..., 
+ [  3.29998000e+05   2.27272727e-01  -1.50589566e-01 ...,   1.00000000e+00
+    3.00000000e+00   0.00000000e+00]
+ [  3.29999000e+05   6.36363636e-02   1.61752378e-01 ...,   1.00000000e+00
+    1.00000000e+01   0.00000000e+00]
+ [  3.30000000e+05   2.27272727e-01  -3.55162182e-02 ...,   1.00000000e+00
+    3.00000000e+00   0.00000000e+00]]
+MAPE of (fold 1/5) of RandomForestRegressor is : 11.033414
+MAPE of (fold 2/5) of RandomForestRegressor is : 11.029475
+MAPE of (fold 3/5) of RandomForestRegressor is : 11.096665
+MAPE of (fold 4/5) of RandomForestRegressor is : 11.152864
+MAPE of (fold 5/5) of RandomForestRegressor is : 11.052614
+MAPE of fold RandomForestRegressor : 7.147010
+MAPE of (fold 1/5) of XGBRegressor is : 11.188916
+MAPE of (fold 2/5) of XGBRegressor is : 11.235738
+MAPE of (fold 3/5) of XGBRegressor is : 11.264461
+MAPE of (fold 4/5) of XGBRegressor is : 11.256093
+MAPE of (fold 5/5) of XGBRegressor is : 11.178330
+MAPE of fold XGBRegressor : 11.152934
+GOOOOOOOOOO
+[[  1.00000000e+00   8.18181818e-02   3.00000000e+01 ...,   1.00000000e+00
+    2.00000000e+00   2.54750000e+02]
+ [  2.00000000e+00   0.00000000e+00   3.00000000e+01 ...,   7.00000000e+00
+    5.00000000e+00   2.59890000e+02]
+ [  3.00000000e+00   2.04545455e-01   3.40000000e+01 ...,   1.00000000e+01
+    1.00000000e+01   4.31650000e+02]
+ ..., 
+ [  3.29998000e+05   2.27272727e-01   2.50000000e+01 ...,   1.00000000e+00
+    3.00000000e+00   0.00000000e+00]
+ [  3.29999000e+05   6.36363636e-02   4.40000000e+01 ...,   1.00000000e+00
+    1.00000000e+01   0.00000000e+00]
+ [  3.30000000e+05   2.27272727e-01   3.20000000e+01 ...,   1.00000000e+00
+    3.00000000e+00   0.00000000e+00]]
+MAPE of (fold 1/5) of RandomForestRegressor is : 11.026022
+MAPE of (fold 2/5) of RandomForestRegressor is : 11.034573
+MAPE of (fold 3/5) of RandomForestRegressor is : 11.088962
+MAPE of (fold 4/5) of RandomForestRegressor is : 11.142735
+MAPE of (fold 5/5) of RandomForestRegressor is : 11.069130
+MAPE of fold RandomForestRegressor : 7.148646
+MAPE of (fold 1/5) of XGBRegressor is : 11.188916
+MAPE of (fold 2/5) of XGBRegressor is : 11.235738
+MAPE of (fold 3/5) of XGBRegressor is : 11.264461
+MAPE of (fold 4/5) of XGBRegressor is : 11.256093
+MAPE of (fold 5/5) of XGBRegressor is : 11.178330
+MAPE of fold XGBRegressor : 11.152934
+GOOOOOOOOOO
+[[  1.00000000e+00   8.18181818e-02   3.00000000e+01 ...,   1.00000000e+00
+    2.00000000e+00   2.54750000e+02]
+ [  2.00000000e+00   0.00000000e+00   3.00000000e+01 ...,   7.00000000e+00
+    5.00000000e+00   2.59890000e+02]
+ [  3.00000000e+00   2.04545455e-01   3.40000000e+01 ...,   1.00000000e+01
+    1.00000000e+01   4.31650000e+02]
+ ..., 
+ [  3.29998000e+05   2.27272727e-01   2.50000000e+01 ...,   1.00000000e+00
+    3.00000000e+00   0.00000000e+00]
+ [  3.29999000e+05   6.36363636e-02   4.40000000e+01 ...,   1.00000000e+00
+    1.00000000e+01   0.00000000e+00]
+ [  3.30000000e+05   2.27272727e-01   3.20000000e+01 ...,   1.00000000e+00
+    3.00000000e+00   0.00000000e+00]]
+MAPE of (fold 1/5) of RandomForestRegressor is : 11.039112
+MAPE of (fold 2/5) of RandomForestRegressor is : 11.028650
+MAPE of (fold 3/5) of RandomForestRegressor is : 11.084973
+MAPE of (fold 4/5) of RandomForestRegressor is : 11.132805
+MAPE of (fold 5/5) of RandomForestRegressor is : 11.089871
+MAPE of fold RandomForestRegressor : 9.784020
+MAPE of (fold 1/5) of XGBRegressor is : 11.188916
+MAPE of (fold 2/5) of XGBRegressor is : 11.235738
+MAPE of (fold 3/5) of XGBRegressor is : 11.264461
+MAPE of (fold 4/5) of XGBRegressor is : 11.256093
+MAPE of (fold 5/5) of XGBRegressor is : 11.178330
+MAPE of fold XGBRegressor : 11.152934
+GOOOOOOOOOO
+[[  1.00000000e+00   8.18181818e-02   3.00000000e+01 ...,   1.00000000e+00
+    2.00000000e+00   2.54750000e+02]
+ [  2.00000000e+00   0.00000000e+00   3.00000000e+01 ...,   7.00000000e+00
+    5.00000000e+00   2.59890000e+02]
+ [  3.00000000e+00   2.04545455e-01   3.40000000e+01 ...,   1.00000000e+01
+    1.00000000e+01   4.31650000e+02]
+ ..., 
+ [  3.29998000e+05   2.27272727e-01   2.50000000e+01 ...,   1.00000000e+00
+    3.00000000e+00   0.00000000e+00]
+ [  3.29999000e+05   6.36363636e-02   4.40000000e+01 ...,   1.00000000e+00
+    1.00000000e+01   0.00000000e+00]
+ [  3.30000000e+05   2.27272727e-01   3.20000000e+01 ...,   1.00000000e+00
+    3.00000000e+00   0.00000000e+00]]
+MAPE of (fold 1/5) of RandomForestRegressor is : 11.021716
+MAPE of (fold 2/5) of RandomForestRegressor is : 11.016213
+MAPE of (fold 3/5) of RandomForestRegressor is : 11.070441
+MAPE of (fold 4/5) of RandomForestRegressor is : 11.118600
+MAPE of (fold 5/5) of RandomForestRegressor is : 11.072468
+MAPE of fold RandomForestRegressor : 9.820465
+MAPE of (fold 1/5) of XGBRegressor is : 11.166773
+MAPE of (fold 2/5) of XGBRegressor is : 11.182098
+MAPE of (fold 3/5) of XGBRegressor is : 11.296080
+MAPE of (fold 4/5) of XGBRegressor is : 11.264868
+MAPE of (fold 5/5) of XGBRegressor is : 11.236187
+MAPE of fold XGBRegressor : 11.225701
+GOOOOOOOOOO
+[[  1.00000000e+00   8.18181818e-02   3.00000000e+01 ...,   2.00000000e+00
+    1.00000000e+00   2.54750000e+02]
+ [  2.00000000e+00   0.00000000e+00   3.00000000e+01 ...,   5.00000000e+00
+    1.00000000e+00   2.59890000e+02]
+ [  3.00000000e+00   2.04545455e-01   3.40000000e+01 ...,   1.00000000e+01
+    1.00000000e+00   4.31650000e+02]
+ ..., 
+ [  3.29998000e+05   2.27272727e-01   2.50000000e+01 ...,   3.00000000e+00
+    3.00000000e+00   0.00000000e+00]
+ [  3.29999000e+05   6.36363636e-02   4.40000000e+01 ...,   1.00000000e+01
+    1.00000000e+00   0.00000000e+00]
+ [  3.30000000e+05   2.27272727e-01   3.20000000e+01 ...,   3.00000000e+00
+    3.00000000e+00   0.00000000e+00]]
+MAPE of (fold 1/5) of RandomForestRegressor is : 11.038624
+MAPE of (fold 2/5) of RandomForestRegressor is : 11.015863
+MAPE of (fold 3/5) of RandomForestRegressor is : 11.081686
+MAPE of (fold 4/5) of RandomForestRegressor is : 11.106896
+MAPE of (fold 5/5) of RandomForestRegressor is : 11.073789
+MAPE of fold RandomForestRegressor : 9.821630
+MAPE of (fold 1/5) of XGBRegressor is : 11.166773
+MAPE of (fold 2/5) of XGBRegressor is : 11.182098
+MAPE of (fold 3/5) of XGBRegressor is : 11.296080
+MAPE of (fold 4/5) of XGBRegressor is : 11.264868
+MAPE of (fold 5/5) of XGBRegressor is : 11.236187
+MAPE of fold XGBRegressor : 11.225701
+GOOOOOOOOOO
+[[  1.00000000e+00   8.18181818e-02   3.00000000e+01 ...,   2.00000000e+00
+    1.00000000e+00   2.54750000e+02]
+ [  2.00000000e+00   0.00000000e+00   3.00000000e+01 ...,   5.00000000e+00
+    1.00000000e+00   2.59890000e+02]
+ [  3.00000000e+00   2.04545455e-01   3.40000000e+01 ...,   1.00000000e+01
+    1.00000000e+00   4.31650000e+02]
+ ..., 
+ [  3.29998000e+05   2.27272727e-01   2.50000000e+01 ...,   3.00000000e+00
+    3.00000000e+00   0.00000000e+00]
+ [  3.29999000e+05   6.36363636e-02   4.40000000e+01 ...,   1.00000000e+01
+    1.00000000e+00   0.00000000e+00]
+ [  3.30000000e+05   2.27272727e-01   3.20000000e+01 ...,   3.00000000e+00
+    3.00000000e+00   0.00000000e+00]]
+MAPE of (fold 1/5) of RandomForestRegressor is : 11.048878
+MAPE of (fold 2/5) of RandomForestRegressor is : 11.077891
+MAPE of (fold 3/5) of RandomForestRegressor is : 11.136601
+MAPE of (fold 4/5) of RandomForestRegressor is : 11.167629
+MAPE of (fold 5/5) of RandomForestRegressor is : 11.226190
+GOOOOOOOOOO
+[[  1.00000000e+00   8.18181818e-02   3.00000000e+01 ...,   2.00000000e+00
+    1.00000000e+00   2.54750000e+02]
+ [  2.00000000e+00   0.00000000e+00   3.00000000e+01 ...,   5.00000000e+00
+    1.00000000e+00   2.59890000e+02]
+ [  3.00000000e+00   2.04545455e-01   3.40000000e+01 ...,   1.00000000e+01
+    1.00000000e+00   4.31650000e+02]
+ ..., 
+ [  3.29998000e+05   2.27272727e-01   2.50000000e+01 ...,   3.00000000e+00
+    3.00000000e+00   0.00000000e+00]
+ [  3.29999000e+05   6.36363636e-02   4.40000000e+01 ...,   1.00000000e+01
+    1.00000000e+00   0.00000000e+00]
+ [  3.30000000e+05   2.27272727e-01   3.20000000e+01 ...,   3.00000000e+00
+    3.00000000e+00   0.00000000e+00]]
+MAPE of (fold 1/5) of RandomForestRegressor is : 11.057521
+MAPE of (fold 2/5) of RandomForestRegressor is : 11.086066
+MAPE of (fold 3/5) of RandomForestRegressor is : 11.107782
+MAPE of (fold 4/5) of RandomForestRegressor is : 11.185661
+MAPE of (fold 5/5) of RandomForestRegressor is : 11.241428
+GOOOOOOOOOO
+[[  1.00000000e+00   8.18181818e-02   3.00000000e+01 ...,   2.00000000e+00
+    1.00000000e+00   2.54750000e+02]
+ [  2.00000000e+00   0.00000000e+00   3.00000000e+01 ...,   5.00000000e+00
+    1.00000000e+00   2.59890000e+02]
+ [  3.00000000e+00   2.04545455e-01   3.40000000e+01 ...,   1.00000000e+01
+    1.00000000e+00   4.31650000e+02]
+ ..., 
+ [  3.29998000e+05   2.27272727e-01   2.50000000e+01 ...,   3.00000000e+00
+    3.00000000e+00   0.00000000e+00]
+ [  3.29999000e+05   6.36363636e-02   4.40000000e+01 ...,   1.00000000e+01
+    1.00000000e+00   0.00000000e+00]
+ [  3.30000000e+05   2.27272727e-01   3.20000000e+01 ...,   3.00000000e+00
+    3.00000000e+00   0.00000000e+00]]
+MAPE of (fold 1/5) of RandomForestRegressor is : 11.064905
+MAPE of (fold 2/5) of RandomForestRegressor is : 11.106946
+MAPE of (fold 3/5) of RandomForestRegressor is : 11.118042
+MAPE of (fold 4/5) of RandomForestRegressor is : 11.125741
+MAPE of (fold 5/5) of RandomForestRegressor is : 11.204977
+GOOOOOOOOOO
+[[  1.00000000e+00   8.18181818e-02   3.00000000e+01 ...,   2.00000000e+00
+    1.00000000e+00   2.54750000e+02]
+ [  2.00000000e+00   0.00000000e+00   3.00000000e+01 ...,   5.00000000e+00
+    1.00000000e+00   2.59890000e+02]
+ [  3.00000000e+00   2.04545455e-01   3.40000000e+01 ...,   1.00000000e+01
+    1.00000000e+00   4.31650000e+02]
+ ..., 
+ [  3.29998000e+05   2.27272727e-01   2.50000000e+01 ...,   3.00000000e+00
+    3.00000000e+00   0.00000000e+00]
+ [  3.29999000e+05   6.36363636e-02   4.40000000e+01 ...,   1.00000000e+01
+    1.00000000e+00   0.00000000e+00]
+ [  3.30000000e+05   2.27272727e-01   3.20000000e+01 ...,   3.00000000e+00
+    3.00000000e+00   0.00000000e+00]]
+MAPE of (fold 1/5) of RandomForestRegressor is : 11.057259
+MAPE of (fold 2/5) of RandomForestRegressor is : 11.086151
+MAPE of (fold 3/5) of RandomForestRegressor is : 11.107768
+MAPE of (fold 4/5) of RandomForestRegressor is : 11.174561
+MAPE of (fold 5/5) of RandomForestRegressor is : 11.211313
+MAPE of fold RandomForestRegressor : 11.393815
+GOOOOOOOOOO
+[[  1.00000000e+00   8.18181818e-02   3.00000000e+01 ...,   2.00000000e+00
+    1.00000000e+00   2.54750000e+02]
+ [  2.00000000e+00   0.00000000e+00   3.00000000e+01 ...,   5.00000000e+00
+    1.00000000e+00   2.59890000e+02]
+ [  3.00000000e+00   2.04545455e-01   3.40000000e+01 ...,   1.00000000e+01
+    1.00000000e+00   4.31650000e+02]
+ ..., 
+ [  3.29998000e+05   2.27272727e-01   2.50000000e+01 ...,   3.00000000e+00
+    3.00000000e+00   0.00000000e+00]
+ [  3.29999000e+05   6.36363636e-02   4.40000000e+01 ...,   1.00000000e+01
+    1.00000000e+00   0.00000000e+00]
+ [  3.30000000e+05   2.27272727e-01   3.20000000e+01 ...,   3.00000000e+00
+    3.00000000e+00   0.00000000e+00]]
+MAPE of (fold 1/5) of RandomForestRegressor is : 11.050437
+MAPE of (fold 2/5) of RandomForestRegressor is : 11.070307
+MAPE of (fold 3/5) of RandomForestRegressor is : 11.104438
+MAPE of (fold 4/5) of RandomForestRegressor is : 11.165167
+MAPE of (fold 5/5) of RandomForestRegressor is : 11.208383
+MAPE of fold RandomForestRegressor : 11.402728
+GOOOOOOOOOO
+[[  1.00000000e+00   8.18181818e-02   3.00000000e+01 ...,   2.00000000e+00
+    1.00000000e+00   2.54750000e+02]
+ [  2.00000000e+00   0.00000000e+00   3.00000000e+01 ...,   5.00000000e+00
+    1.00000000e+00   2.59890000e+02]
+ [  3.00000000e+00   2.04545455e-01   3.40000000e+01 ...,   1.00000000e+01
+    1.00000000e+00   4.31650000e+02]
+ ..., 
+ [  3.29998000e+05   2.27272727e-01   2.50000000e+01 ...,   3.00000000e+00
+    3.00000000e+00   0.00000000e+00]
+ [  3.29999000e+05   6.36363636e-02   4.40000000e+01 ...,   1.00000000e+01
+    1.00000000e+00   0.00000000e+00]
+ [  3.30000000e+05   2.27272727e-01   3.20000000e+01 ...,   3.00000000e+00
+    3.00000000e+00   0.00000000e+00]]
+MAPE of (fold 1/5) of RandomForestRegressor is : 11.038069
+MAPE of (fold 2/5) of RandomForestRegressor is : 11.096955
+MAPE of (fold 3/5) of RandomForestRegressor is : 11.118427
+MAPE of (fold 4/5) of RandomForestRegressor is : 11.177948
+MAPE of (fold 5/5) of RandomForestRegressor is : 11.211129
+MAPE of fold RandomForestRegressor : 11.374586
+GOOOOOOOOOO
+[[  1.00000000e+00   8.18181818e-02   3.00000000e+01 ...,   2.00000000e+00
+    1.00000000e+00   2.54750000e+02]
+ [  2.00000000e+00   0.00000000e+00   3.00000000e+01 ...,   5.00000000e+00
+    1.00000000e+00   2.59890000e+02]
+ [  3.00000000e+00   2.04545455e-01   3.40000000e+01 ...,   1.00000000e+01
+    1.00000000e+00   4.31650000e+02]
+ ..., 
+ [  3.29998000e+05   2.27272727e-01   2.50000000e+01 ...,   3.00000000e+00
+    3.00000000e+00   0.00000000e+00]
+ [  3.29999000e+05   6.36363636e-02   4.40000000e+01 ...,   1.00000000e+01
+    1.00000000e+00   0.00000000e+00]
+ [  3.30000000e+05   2.27272727e-01   3.20000000e+01 ...,   3.00000000e+00
+    3.00000000e+00   0.00000000e+00]]
+MAPE of (fold 1/5) of RandomForestRegressor is : 11.063597
+MAPE of (fold 2/5) of RandomForestRegressor is : 11.093099
+MAPE of (fold 3/5) of RandomForestRegressor is : 11.111918
+MAPE of (fold 4/5) of RandomForestRegressor is : 11.142420
+MAPE of (fold 5/5) of RandomForestRegressor is : 11.207962
+MAPE of fold RandomForestRegressor : 11.377109
+MAPE of (fold 1/5) of XGBRegressor is : 11.105803
+MAPE of (fold 2/5) of XGBRegressor is : 11.123070
+MAPE of (fold 3/5) of XGBRegressor is : 11.186775
+MAPE of (fold 4/5) of XGBRegressor is : 11.163165
+MAPE of (fold 5/5) of XGBRegressor is : 11.216477
+MAPE of fold XGBRegressor : 11.471388
+GOOOOOOOOOO
+[[  1.00000000e+00   8.18181818e-02   3.00000000e+01 ...,   2.00000000e+00
+    1.00000000e+00   2.54750000e+02]
+ [  2.00000000e+00   0.00000000e+00   3.00000000e+01 ...,   5.00000000e+00
+    1.00000000e+00   2.59890000e+02]
+ [  3.00000000e+00   2.04545455e-01   3.40000000e+01 ...,   1.00000000e+01
+    1.00000000e+00   4.31650000e+02]
+ ..., 
+ [  3.29998000e+05   2.27272727e-01   2.50000000e+01 ...,   3.00000000e+00
+    3.00000000e+00   0.00000000e+00]
+ [  3.29999000e+05   6.36363636e-02   4.40000000e+01 ...,   1.00000000e+01
+    1.00000000e+00   0.00000000e+00]
+ [  3.30000000e+05   2.27272727e-01   3.20000000e+01 ...,   3.00000000e+00
+    3.00000000e+00   0.00000000e+00]]
+MAPE of (fold 1/5) of RandomForestRegressor is : 11.054547
+MAPE of (fold 2/5) of RandomForestRegressor is : 11.127442
+MAPE of (fold 3/5) of RandomForestRegressor is : 11.113656
+MAPE of (fold 4/5) of RandomForestRegressor is : 11.138483
+MAPE of (fold 5/5) of RandomForestRegressor is : 11.186588
+MAPE of fold RandomForestRegressor : 11.446515
+MAPE of (fold 1/5) of XGBRegressor is : 11.105803
+MAPE of (fold 2/5) of XGBRegressor is : 11.123070
+MAPE of (fold 3/5) of XGBRegressor is : 11.186775
+MAPE of (fold 4/5) of XGBRegressor is : 11.163165
+MAPE of (fold 5/5) of XGBRegressor is : 11.216477
+MAPE of fold XGBRegressor : 11.471388
+GOOOOOOOOOO
+[[  1.00000000e+00   8.18181818e-02   3.00000000e+01 ...,   2.00000000e+00
+    1.00000000e+00   2.54750000e+02]
+ [  2.00000000e+00   0.00000000e+00   3.00000000e+01 ...,   5.00000000e+00
+    1.00000000e+00   2.59890000e+02]
+ [  3.00000000e+00   2.04545455e-01   3.40000000e+01 ...,   1.00000000e+01
+    1.00000000e+00   4.31650000e+02]
+ ..., 
+ [  3.29998000e+05   2.27272727e-01   2.50000000e+01 ...,   3.00000000e+00
+    3.00000000e+00   0.00000000e+00]
+ [  3.29999000e+05   6.36363636e-02   4.40000000e+01 ...,   1.00000000e+01
+    1.00000000e+00   0.00000000e+00]
+ [  3.30000000e+05   2.27272727e-01   3.20000000e+01 ...,   3.00000000e+00
+    3.00000000e+00   0.00000000e+00]]
+MAPE of (fold 1/5) of GradientBoostingRegressor is : 11.111142
+MAPE of (fold 2/5) of GradientBoostingRegressor is : 11.092410
+MAPE of (fold 3/5) of GradientBoostingRegressor is : 11.102739
+MAPE of (fold 4/5) of GradientBoostingRegressor is : 11.155550
+MAPE of (fold 5/5) of GradientBoostingRegressor is : 11.213402
+MAPE of fold GradientBoostingRegressor : 11.446195
+MAPE of (fold 1/5) of RandomForestRegressor is : 11.041827
+MAPE of (fold 2/5) of RandomForestRegressor is : 11.101410
+MAPE of (fold 3/5) of RandomForestRegressor is : 11.103132
+MAPE of (fold 4/5) of RandomForestRegressor is : 11.162722
+MAPE of (fold 5/5) of RandomForestRegressor is : 11.180260
+MAPE of fold RandomForestRegressor : 11.452949
+MAPE of (fold 1/5) of XGBRegressor is : 11.105803
+MAPE of (fold 2/5) of XGBRegressor is : 11.123070
+MAPE of (fold 3/5) of XGBRegressor is : 11.186775
+MAPE of (fold 4/5) of XGBRegressor is : 11.163165
+MAPE of (fold 5/5) of XGBRegressor is : 11.216477
+MAPE of fold XGBRegressor : 11.471388
+GOOOOOOOOOO....
+[[  1.00000000e+00   8.18181818e-02   3.00000000e+01 ...,   2.00000000e+00
+    1.00000000e+00   2.54750000e+02]
+ [  2.00000000e+00   0.00000000e+00   3.00000000e+01 ...,   5.00000000e+00
+    1.00000000e+00   2.59890000e+02]
+ [  3.00000000e+00   2.04545455e-01   3.40000000e+01 ...,   1.00000000e+01
+    1.00000000e+00   4.31650000e+02]
+ ..., 
+ [  3.29998000e+05   2.27272727e-01   2.50000000e+01 ...,   3.00000000e+00
+    3.00000000e+00   0.00000000e+00]
+ [  3.29999000e+05   6.36363636e-02   4.40000000e+01 ...,   1.00000000e+01
+    1.00000000e+00   0.00000000e+00]
+ [  3.30000000e+05   2.27272727e-01   3.20000000e+01 ...,   3.00000000e+00
+    3.00000000e+00   0.00000000e+00]]
+GOOOOOOOOOO....
+[[  1.00000000e+00   8.18181818e-02   3.00000000e+01 ...,   2.00000000e+00
+    1.00000000e+00   2.54750000e+02]
+ [  2.00000000e+00   0.00000000e+00   3.00000000e+01 ...,   5.00000000e+00
+    1.00000000e+00   2.59890000e+02]
+ [  3.00000000e+00   2.04545455e-01   3.40000000e+01 ...,   1.00000000e+01
+    1.00000000e+00   4.31650000e+02]
+ ..., 
+ [  3.29998000e+05   2.27272727e-01   2.50000000e+01 ...,   3.00000000e+00
+    3.00000000e+00   0.00000000e+00]
+ [  3.29999000e+05   6.36363636e-02   4.40000000e+01 ...,   1.00000000e+01
+    1.00000000e+00   0.00000000e+00]
+ [  3.30000000e+05   2.27272727e-01   3.20000000e+01 ...,   3.00000000e+00
+    3.00000000e+00   0.00000000e+00]]
+MAPE of (fold 1/5) of GradientBoostingRegressor is : 11.111142
+MAPE of (fold 2/5) of GradientBoostingRegressor is : 11.092410
+MAPE of (fold 3/5) of GradientBoostingRegressor is : 11.102739
+MAPE of (fold 4/5) of GradientBoostingRegressor is : 11.155550
+MAPE of (fold 5/5) of GradientBoostingRegressor is : 11.213402
+MAPE on dev GradientBoostingRegressor : 11.446195
+MAPE of (fold 1/5) of RandomForestRegressor is : 11.046791
+MAPE of (fold 2/5) of RandomForestRegressor is : 11.106395
+MAPE of (fold 3/5) of RandomForestRegressor is : 11.090174
+MAPE of (fold 4/5) of RandomForestRegressor is : 11.144720
+MAPE of (fold 5/5) of RandomForestRegressor is : 11.182013
+MAPE on dev RandomForestRegressor : 11.425035
+MAPE of (fold 1/5) of XGBRegressor is : 11.105803
+MAPE of (fold 2/5) of XGBRegressor is : 11.123070
+MAPE of (fold 3/5) of XGBRegressor is : 11.186775
+MAPE of (fold 4/5) of XGBRegressor is : 11.163165
+MAPE of (fold 5/5) of XGBRegressor is : 11.216477
+MAPE on dev XGBRegressor : 11.471388
+GOOOOOOOOOO....
+[[  1.00000000e+00   8.18181818e-02   3.00000000e+01 ...,   2.00000000e+00
+    1.00000000e+00   2.54750000e+02]
+ [  2.00000000e+00   0.00000000e+00   3.00000000e+01 ...,   5.00000000e+00
+    1.00000000e+00   2.59890000e+02]
+ [  3.00000000e+00   2.04545455e-01   3.40000000e+01 ...,   1.00000000e+01
+    1.00000000e+00   4.31650000e+02]
+ ..., 
+ [  3.29998000e+05   2.27272727e-01   2.50000000e+01 ...,   3.00000000e+00
+    3.00000000e+00   0.00000000e+00]
+ [  3.29999000e+05   6.36363636e-02   4.40000000e+01 ...,   1.00000000e+01
+    1.00000000e+00   0.00000000e+00]
+ [  3.30000000e+05   2.27272727e-01   3.20000000e+01 ...,   3.00000000e+00
+    3.00000000e+00   0.00000000e+00]]
+MAPE of (fold 1/5) of DecisionTreeRegressor is : 14.650854
+MAPE of (fold 2/5) of DecisionTreeRegressor is : 14.655001
+MAPE of (fold 3/5) of DecisionTreeRegressor is : 14.808539
+MAPE of (fold 4/5) of DecisionTreeRegressor is : 14.751423
+MAPE of (fold 5/5) of DecisionTreeRegressor is : 14.801192
+MAPE on dev DecisionTreeRegressor : 15.119804
+MAPE of (fold 1/5) of GradientBoostingRegressor is : 11.111142
+MAPE of (fold 2/5) of GradientBoostingRegressor is : 11.092410
+MAPE of (fold 3/5) of GradientBoostingRegressor is : 11.102739
+MAPE of (fold 4/5) of GradientBoostingRegressor is : 11.155550
+MAPE of (fold 5/5) of GradientBoostingRegressor is : 11.213402
+MAPE on dev GradientBoostingRegressor : 11.446195
+MAPE of (fold 1/5) of RandomForestRegressor is : 11.079587
+MAPE of (fold 2/5) of RandomForestRegressor is : 11.086869
+MAPE of (fold 3/5) of RandomForestRegressor is : 11.118092
+MAPE of (fold 4/5) of RandomForestRegressor is : 11.160476
+MAPE of (fold 5/5) of RandomForestRegressor is : 11.177848
+MAPE on dev RandomForestRegressor : 11.444442
+MAPE of (fold 1/5) of XGBRegressor is : 11.105803
+MAPE of (fold 2/5) of XGBRegressor is : 11.123070
+MAPE of (fold 3/5) of XGBRegressor is : 11.186775
+MAPE of (fold 4/5) of XGBRegressor is : 11.163165
+MAPE of (fold 5/5) of XGBRegressor is : 11.216477
+MAPE on dev XGBRegressor : 11.471388
+GOOOOOOOOOO....
+GOOOOOOOOOO....
+GOOOOOOOOOO....
+MAPE of (fold 1/5) of DecisionTreeRegressor is : 14.598542
+MAPE of (fold 2/5) of DecisionTreeRegressor is : 14.634494
+MAPE of (fold 3/5) of DecisionTreeRegressor is : 14.578352
+MAPE of (fold 4/5) of DecisionTreeRegressor is : 14.585763
+MAPE of (fold 5/5) of DecisionTreeRegressor is : 14.700048
+MAPE on dev DecisionTreeRegressor : 15.075682
+MAPE of (fold 1/5) of GradientBoostingRegressor is : 11.157449
+MAPE of (fold 2/5) of GradientBoostingRegressor is : 11.155249
+MAPE of (fold 3/5) of GradientBoostingRegressor is : 11.155106
+MAPE of (fold 4/5) of GradientBoostingRegressor is : 11.157135
+MAPE of (fold 5/5) of GradientBoostingRegressor is : 11.193643
+MAPE on dev GradientBoostingRegressor : 11.510608
+MAPE of (fold 1/5) of RandomForestRegressor is : 11.048592
+MAPE of (fold 2/5) of RandomForestRegressor is : 11.104015
+MAPE of (fold 3/5) of RandomForestRegressor is : 11.052639
+MAPE of (fold 4/5) of RandomForestRegressor is : 11.127072
+MAPE of (fold 5/5) of RandomForestRegressor is : 11.137457
+MAPE on dev RandomForestRegressor : 11.401557
+MAPE of (fold 1/5) of XGBRegressor is : 11.179294
+MAPE of (fold 2/5) of XGBRegressor is : 11.148903
+MAPE of (fold 3/5) of XGBRegressor is : 11.155666
+MAPE of (fold 4/5) of XGBRegressor is : 11.164309
+MAPE of (fold 5/5) of XGBRegressor is : 11.230786
+MAPE on dev XGBRegressor : 11.484442
+GOOOOOOOOOO....
+GOOOOOOOOOO....
+GOOOOOOOOOO....
+GOOOOOOOOOO....
+GOOOOOOOOOO....
+GOOOOOOOOOO....
+GOOOOOOOOOO....
+GOOOOOOOOOO....
+GOOOOOOOOOO....
+[[  1.00000000e+00   8.18181818e-02   3.00000000e+01 ...,   1.00000000e+00
+    1.00000000e+00   2.54750000e+02]
+ [  2.00000000e+00   0.00000000e+00   3.00000000e+01 ...,   4.00000000e+00
+    1.00000000e+00   2.59890000e+02]
+ [  3.00000000e+00   2.04545455e-01   3.40000000e+01 ...,   9.00000000e+00
+    1.00000000e+00   4.31650000e+02]
+ ..., 
+ [  3.29998000e+05   2.27272727e-01   2.50000000e+01 ...,   2.00000000e+00
+    3.00000000e+00   0.00000000e+00]
+ [  3.29999000e+05   6.36363636e-02   4.40000000e+01 ...,   9.00000000e+00
+    1.00000000e+00   0.00000000e+00]
+ [  3.30000000e+05   2.27272727e-01   3.20000000e+01 ...,   2.00000000e+00
+    3.00000000e+00   0.00000000e+00]]
+MAPE of (fold 1/5) of RandomForestRegressor is : 10.720244
+MAPE of (fold 2/5) of RandomForestRegressor is : 10.742559
+MAPE of (fold 3/5) of RandomForestRegressor is : 10.772192
+MAPE of (fold 4/5) of RandomForestRegressor is : 10.810177
+MAPE of (fold 5/5) of RandomForestRegressor is : 10.850762
+MAPE on dev RandomForestRegressor : 11.190593

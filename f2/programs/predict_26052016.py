@@ -1,0 +1,214 @@
+""" data science local team  
+Mouhamadou Ba <mandiayba@gmail.com>
+"""
+
+from __future__ import division
+from sklearn.preprocessing import LabelEncoder
+from sklearn.utils import check_array
+import matplotlib.pyplot as plt
+
+import numpy 
+import pandas
+from sklearn import (metrics, cross_validation, ensemble, preprocessing)
+
+SEED = 42  # always use a seed for randomized procedures
+
+# load files
+def load_data(filename, use_labels=True):
+	
+    use_dtype ={'annee_naissance':float,
+		'annee_permis':float,
+		'marque':str,
+		'puis_fiscale':float,
+		'anc_veh':float,
+		'codepostal':str,
+		'energie_veh':str,
+		'kmage_annuel':float,
+		'crm':float,
+		'profession':str,
+		'var1':float,
+		'var2':float,
+		'var3':float,
+		'var4':float,
+		'var5':float,
+		'var6':str,
+		'var7':str,
+		'var8':str,
+		'var9':float,
+		'var10':float,
+		'var11':float,
+		'var12':float,
+		'var13':float,
+		'var14':str,
+		'var15':float,
+		'var16':str,
+		'var17':float,
+		'var18':float,
+		'var19':float,
+		'var20':float,
+		'var21':float,
+		'var22':float}
+    data = pandas.read_csv(open('../data/' + filename), dtype=use_dtype, delimiter=',', usecols = range(0, 31), header=0)
+    if use_labels:
+        labels = pandas.read_csv(open('../data/' + filename), delimiter=',', usecols=[32], header=0)
+    else:
+        labels = numpy.zeros(data.shape[0])
+    return labels, data
+
+
+def save_results(predictions, filename):
+    """Given a vector of predictions, save results in CSV format."""
+    with open(filename, 'w') as f:
+        f.write("id,ACTION\n")
+        for i, pred in enumerate(predictions):
+            f.write("%d,%f\n" % (i + 1, pred))
+
+
+class MultiColumnLabelEncoder:
+    def __init__(self,columns = None):
+        self.columns = columns # array of column names to encode
+
+    def fit(self,X,y=None):
+        return self # not relevant here
+
+    def transform(self,X):
+        '''
+        Transforms columns of X specified in self.columns using
+        LabelEncoder(). If no columns specified, transforms all
+        columns in X.
+        '''
+        output = X.copy()
+        if self.columns is not None:
+            for col in self.columns:
+                output[col] = LabelEncoder().fit_transform(output[col])
+        else:
+            for colname,col in output.iteritems():
+                output[colname] = LabelEncoder().fit_transform(col)
+        return output
+
+    def fit_transform(self,X,y=None):
+        return self.fit(X,y).transform(X)
+
+# ==== data preparation ==== #
+def prepare_data(X):
+    X['ann_obt_permis'] = X['annee_permis'] - X['annee_naissance']
+    X['duree_permis'] = 2016 - X['annee_permis']
+    X.drop(['codepostal'], inplace=True, axis=1)
+    X.drop(['annee_permis'], inplace=True, axis=1)
+    X.drop(['annee_naissance'], inplace=True, axis=1)
+    X.drop(['var14'], inplace=True, axis=1)
+    
+       # === Label encoding === #
+    print X
+    # ==== marque, codepostal, energie_veh, profession, var6, var7, var8, var14, var16
+    X = MultiColumnLabelEncoder(columns=['marque', 'energie_veh', 'profession', 'var6','var7', 'var8', 'var16']).fit_transform(X)
+    print X
+    return X
+
+# === mean absolute percentage error === #
+def mean_absolute_percentage_error(y_true, y_pred): 
+    #y_true, y_pred = check_array(y_true, y_pred)
+    return numpy.mean(numpy.abs((y_true - y_pred) / y_true)) * 100
+
+def main():
+    """
+    Fit models and make predictions.
+    We'll use one-hot encoding to transform our categorical features
+    into binary features.
+    y and X will be numpy array objects.
+    """
+    #model = linear_model.Lasso()  # the classifier we'll use
+    model = ensemble.RandomForestRegressor()
+
+    # === load data in memory === #
+    print "loading data"
+    y, X = load_data('train.csv')
+    #y_test, X_test = load_data('test.csv', use_labels=False)
+    
+    # prepare data
+    X = prepare_data(X)
+
+    # === training & metrics === #
+    mean_mape = 0.0
+    n = 10  # repeat the CV procedure 10 times to get more precise results
+    for i in range(n):
+        # for each iteration, randomly hold out 20% of the data as CV set
+        X_train, X_cv, y_train, y_cv = cross_validation.train_test_split(
+            X, y, test_size=.10, random_state=i*SEED)
+
+        # if you want to perform feature selection / hyperparameter
+        # optimization, this is where you want to do it
+
+        # train model and make predictions
+        model.fit(X_train, y_train.values.ravel()) 
+        preds = model.predict(X_cv)
+
+	print "result"
+	print preds
+	print y_cv
+
+
+        # compute MAE metric for this CV fold
+        #means = metrics.mean_absolute_error(y_cv, preds)
+        roc_inter = mean_absolute_percentage_error(y_cv['prime_tot_ttc'], preds)
+        #roc_auc = metrics.auc(fpr, tpr)
+        print "MAPE (fold %d/%d): %f" % (i + 1, n, roc_inter)
+        mean_mape += roc_inter
+
+    print "Mean MAE: %f" % (mean_mape/n)
+    from sklearn2pmml import sklearn2pmml
+
+    use_columns =  ['marque',
+		'puis_fiscale',
+		'anc_veh',
+		'energie_veh',
+		'kmage_annuel',
+		'crm',
+		'profession',
+		'var1',
+		'var2',
+		'var3',
+		'var4',
+		'var5',
+		'var6',
+		'var7',
+		'var8',
+		'var9',
+		'var10',
+		'var11',
+		'var12',
+		'var13',
+		'var15',
+		'var16',
+		'var17',
+		'var18',
+		'var19',
+		'var20',
+		'var21',
+		'var22',
+		'ann_obt_permis',
+		'duree_permis']
+
+    sklearn2pmml(model, pandas.DataFrame([X],use_columns), "LogisticRegressionIris.pmml", with_repr = True)
+    # Plot the results
+    #plt.figure()
+    #print X_train
+    #print y_train
+    #plt.scatter(X_train['crm'], y_train, c="k", label="data")
+    #plt.plot(X_test, y_1, c="g", label="max_depth=2", linewidth=2)
+    #plt.plot(X_cv, preds, c="r", label="max_depth=5", linewidth=2)
+    #plt.xlabel("data")
+    #plt.ylabel("target")
+    #plt.title("Decision Tree Regression")
+    #plt.legend()
+    #plt.show()
+
+    # === Predictions === #
+    # When making predictions, retrain the model on the whole training set
+    ##model.fit(X, y)
+    #preds = model.predict(X_test)#[:, 1]
+    #filename = raw_input("Enter name for submission file: ")
+    #save_results(preds, filename + ".csv")
+
+if __name__ == '__main__':
+    main()

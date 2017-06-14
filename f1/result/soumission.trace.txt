@@ -1,0 +1,28 @@
+#  1 eme lot
+
+MAPE of DecisionTreeAuto is : 6.541687 --------->  Score 14,86114% (3)
+MAPE of DecisionTreeEnsembleAuto is : 14.444413
+MAPE of ElasticNetAuto is : 17.665512
+MAPE of ExtraTreesAuto is : 6.444934 ---------->  Score 13,31422%  (4)
+MAPE of GradientBoostingAuto is : 10.618314   ------> Score 13,03782% (1)
+MAPE of LassoAuto is : 16.499991
+MAPE of LinearRegressionAuto is : 16.511788
+MAPE of LinearRegressionEnsembleAuto is : 21.495329
+MAPE of RandomForestAuto is : 6.930664   -------> Score 1: 12,90620% (2)
+MAPE of RidgeAuto is : 16.511779
+Avg ---------------------------------------------------> pas bon
+
+2 eme lot
+
+MAPE of DecisionTreeAuto is : 6.541666
+MAPE of DecisionTreeEnsembleAuto is : 14.866322
+MAPE of ElasticNetAuto is : 17.733851
+MAPE of ExtraTreesAuto is : 6.453175
+MAPE of GradientBoostingAuto is : 10.618314
+MAPE of LassoAuto is : 16.497778
+MAPE of LinearRegressionAuto is : 16.511788
+MAPE of LinearRegressionEnsembleAuto is : 21.537198
+MAPE of RandomForestAuto is : 6.930144
+MAPE of RidgeAuto is : 16.511778
+MAPE of XGBAuto is : 10.587048 ----->                   (5)
+

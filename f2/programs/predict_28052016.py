@@ -1,0 +1,124 @@
+from scipy import sparse
+from sklearn import cross_validation
+from sklearn.cluster import KMeans, MiniBatchKMeans
+from sklearn.decomposition import IncrementalPCA
+from sklearn.discriminant_analysis import LinearDiscriminantAnalysis
+from sklearn.ensemble.bagging import BaggingClassifier, BaggingRegressor
+from sklearn.ensemble.forest import ExtraTreesClassifier, ExtraTreesRegressor, RandomForestClassifier, RandomForestRegressor
+from sklearn.ensemble.gradient_boosting import GradientBoostingClassifier, GradientBoostingRegressor
+from sklearn.ensemble.voting_classifier import VotingClassifier
+from sklearn.externals import joblib
+from sklearn.linear_model import LinearRegression, LogisticRegression, LogisticRegressionCV
+from sklearn.linear_model.coordinate_descent import ElasticNetCV, LassoCV
+from sklearn.linear_model.ridge import RidgeCV, RidgeClassifier, RidgeClassifierCV
+from sklearn.linear_model.stochastic_gradient import SGDClassifier, SGDRegressor
+from sklearn.naive_bayes import GaussianNB
+from sklearn.neighbors import KNeighborsClassifier, KNeighborsRegressor
+from sklearn.tree.tree import DecisionTreeClassifier, DecisionTreeRegressor
+from sklearn.preprocessing import Binarizer, FunctionTransformer, Imputer, LabelBinarizer, LabelEncoder, MaxAbsScaler, MinMaxScaler, OneHotEncoder, RobustScaler, StandardScaler
+from sklearn.svm import LinearSVR, NuSVC, NuSVR, OneClassSVM, SVC, SVR
+from sklearn_pandas import DataFrameMapper
+from sklearn2pmml.decoration import CategoricalDomain, ContinuousDomain
+from pandas import DataFrame
+#from xgboost.sklearn import XGBClassifier, XGBRegressor
+
+import numpy
+import pandas
+
+
+
+
+
+
+def load_csv(name):
+	return pandas.read_csv("data/" + name, na_values = ["N/A", "NA"])
+
+def store_csv(df, name):
+	df.to_csv("csv/" + name, index = False)
+
+def store_pkl(obj, name):
+	joblib.dump(obj, "pkl/" + name, compress = 9)
+
+def mape(y_true, y_pred): 
+    #y_true, y_pred = check_array(y_true, y_pred)
+    return numpy.mean(numpy.abs((y_true - y_pred) / y_true)) * 100
+
+def build_auto(regressor, name):
+	#regressor = regressor.fit(auto_X, auto_y)
+	#scores = cross_validation.cross_val_score(regressor, auto_X, auto_y, cv=5)
+	preds = cross_validation.cross_val_predict(regressor, auto_X, auto_y, cv=5)
+	print preds
+	store_pkl(regressor, name + ".pkl")
+	preds = DataFrame(preds, columns = ["prime_tot_ttc_preds"])
+	store_csv(preds, name + ".csv")
+	print "MAPE of %s is : %f" % (name, mape(auto_y, preds["prime_tot_ttc_preds"]))
+
+
+
+auto_df = load_csv("train.csv")
+
+print(auto_df.dtypes)
+
+auto_df['ann_obt_permis'] = auto_df['annee_permis'] - auto_df['annee_naissance']
+auto_df['duree_permis'] = 2016 - auto_df['annee_permis']
+
+print(auto_df.dtypes)
+
+auto_mapper = DataFrameMapper([
+	(["crm", 
+	"ann_obt_permis", 
+	"duree_permis", 
+	"var1",
+	"var2",
+	"var3",
+	"var4",
+	"var5",
+	"var17",
+	"var18",
+	"var19",
+	"var20",
+	"var21",
+	"var22",
+	"var9",
+	"var10",
+	"var11",
+	"var12",
+	"var13",
+	"kmage_annuel",
+	"puis_fiscale",
+	"anc_veh","var15"], 
+	[ContinuousDomain(), StandardScaler()]),
+	(["marque"], LabelEncoder()),
+	(["energie_veh"], LabelEncoder()), 
+        (["profession"], LabelEncoder()), 
+        (["var6"], LabelEncoder()),
+        (["var7"], LabelEncoder()),
+        (["var8"], LabelEncoder()),
+        (["var16"], LabelEncoder()),
+	(["prime_tot_ttc"], None)
+])
+
+
+auto = auto_mapper.fit_transform(auto_df)
+
+print(auto)
+print(auto.shape)
+
+store_pkl(auto_mapper, "Auto.pkl")
+
+auto_X = auto[:, 0:30]
+auto_y = auto[:, 30]
+
+print(auto_X.dtype, auto_y.dtype)
+
+build_auto(DecisionTreeRegressor(random_state = 13, min_samples_leaf = 5), "DecisionTreeAuto")
+build_auto(BaggingRegressor(DecisionTreeRegressor(random_state = 13, min_samples_leaf = 5), random_state = 13, n_estimators = 3, max_features = 0.5), "DecisionTreeEnsembleAuto")
+build_auto(ElasticNetCV(random_state = 13), "ElasticNetAuto")
+build_auto(ExtraTreesRegressor(random_state = 13, min_samples_leaf = 5), "ExtraTreesAuto")
+build_auto(GradientBoostingRegressor(random_state = 13, init = None), "GradientBoostingAuto")
+build_auto(LassoCV(random_state = 13), "LassoAuto")
+build_auto(LinearRegression(), "LinearRegressionAuto")
+build_auto(BaggingRegressor(LinearRegression(), random_state = 13, max_features = 0.5), "LinearRegressionEnsembleAuto")
+build_auto(RandomForestRegressor(random_state = 13, min_samples_leaf = 5), "RandomForestAuto")
+build_auto(RidgeCV(), "RidgeAuto")
+#build_auto(XGBRegressor(objective = "reg:linear"), "XGBAuto")

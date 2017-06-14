@@ -1,6 +1,6 @@
 # Learning
 
-This projects contains ML scripts for data analysis.
+This projects contains ML scripts used for challenge ["Décodage d'une formule de pricing"](https://www.datascience.net/fr/challenge/26/details#) by MAIF. It is based on [scikit learn](http://scikit-learn.org/stable/).
 
 **** /data  contains sample data 
 
